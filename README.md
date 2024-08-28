@@ -15,7 +15,7 @@ This project is based on the Python
 The code information 
 * Sample data 
 * Data handling (for in situ SWE data adjustment using ERA5 SWE)
-* Model: Machine learning (Random forest regression); Machine learning (Random forest classification)
+* Model: Machine learning (Random forest regression, RFR.py); Machine learning (Random forest classification, RFC.py)
 
 ## Contact
 krsmsuh@yonsei.ac.kr
