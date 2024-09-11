@@ -6,20 +6,11 @@ from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
 import math
 from sklearn.metrics import mean_absolute_error
-import seaborn as sns
-import matplotlib.pyplot as plt
-import matplotlib.path as mpath
-from matplotlib.colors import ListedColormap
-import matplotlib.colors as mcolors
-import gc
-import warnings
-from netCDF4 import Dataset
-from mpl_toolkits.basemap import Basemap
 
+from netCDF4 import Dataset
 import multiprocessing
 from multiprocessing import Array
 import time
-from skill_metrics import taylor_diagram
 
 
 # Load the in-situ data
