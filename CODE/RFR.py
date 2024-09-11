@@ -12,7 +12,7 @@ from joblib import  dump
 sns.set(style="whitegrid")
 
 # Load the CSV file into a pandas DataFrame
-input_file = '/home/krsmsuh/01_data/00_mahdi/Data_Train_seprate_cluster/Cluster_0.csv'
+input_file = 'DATA_PATH' # You have to set the data path. In our study, we used the 13 csv files include the SWE variables in each cluster.
 data = pd.read_csv(input_file)
 
 # Exclude 'Cluster' and 'J_day' columns from features
