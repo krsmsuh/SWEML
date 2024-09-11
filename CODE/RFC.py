@@ -9,7 +9,7 @@ import multiprocessing
 
 
 # Load the large CSV file (you might need to use a streaming/batch processing approach for very large files)
-data = pd.read_csv('/home/krsmsuh/01_data/00_mahdi/00_Final/02_train/CL_13.csv')
+data = pd.read_csv("DATA_PATH"); #You have to set the DATA_PATH
 
 # Split the data into input features (X) and target (y)
 X = data[['Lat', 'Lon', 'Year', 'Month', 'skt', 'sd', 'ssrd', 'r', 'tp', 'api', 'ptype', 'tmp', 'vegt', 'anor', 'isor', 'slor']]
