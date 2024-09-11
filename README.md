@@ -13,7 +13,6 @@ The detailed description is shown in this paper:
 This project is based on the Python
 
 The code information 
-* Sample data 
 * Data handling (for in situ SWE data adjustment using ERA5 SWE)
 * Model: Machine learning (Random forest regression, RFR.py); Machine learning (Random forest classification, RFC.py)
 
