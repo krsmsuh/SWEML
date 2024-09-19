@@ -23,7 +23,7 @@ The code information
 ## Contact
 First author: krsmsuh@yonsei.ac.kr
 
-**Correspongind author: yeonjoo.kim.@yonsei.ac.kr**
+**Corresponging author: yeonjoo.kim.@yonsei.ac.kr**
 
 
 
